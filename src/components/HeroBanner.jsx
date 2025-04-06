@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import banner1 from '../assets/images/banners/hero.jpg';
 import banner2 from '../assets/images/banners/hero2.jpg'
+import banner3 from '../assets/images/banners/6.png'
 
 
 const HeroBanner = () => {
-  const images = [banner1, banner2, banner1];
+  const images = [banner3, banner2];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Auto-slide every 5 seconds
@@ -32,7 +32,7 @@ const HeroBanner = () => {
           key={idx}
           src={img}
           alt={`Slide ${idx + 1}`}
-          className={`absolute top-0 left-0 w-full h-full object-cover object-bottom transition-opacity duration-1000 ease-in-out ${idx === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
+          className={`absolute top-0 left-0 w-full h-full object-cover object-fill transition-opacity duration-1000 ease-in-out ${idx === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
         />
       ))}
 
