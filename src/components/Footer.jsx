@@ -30,13 +30,13 @@ const Footer = () => {
             <h1 className='text-[22px] font-normal mb-2'>Contact Us</h1>
             <ul>
               <li className='text-[16px] text-gray-600 flex items-start mb-3'>
-                <i className="fi fi-rs-marker mr-2 mt-1"></i> 2245 148th <br/> Ave NE Bellevue, WA 98007
+                <i className="fi fi-rs-marker mr-2 mt-1"></i> Stree1, <br/> New York, United States
               </li>
               <li className='text-[16px] text-gray-600 flex items-start mb-3'>
-                <i className="fi fi-rs-envelope mr-2 mt-1"></i> support@bazzar.com
+                <i className="fi fi-rs-envelope mr-2 mt-1"></i> support@shopName.com
               </li>
               <li className='text-[16px] text-gray-600 flex items-start'>
-                <i className="fi fi-ts-phone-call mr-2 mt-1"></i> (425) 644-6887
+                <i className="fi fi-ts-phone-call mr-2 mt-1"></i> (+1) 000-0000
               </li>
             </ul>
           </div>

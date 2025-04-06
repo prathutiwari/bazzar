@@ -3,26 +3,26 @@ import React from "react";
 const testimonials = [
     {
         quote:
-            "shopName is my go-to grocery store. They always have fresh produce, and I love their wide variety of spices. The staff is super friendly and helpful!",
-        author: "Priya, Iselin",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed leo laoreet, eleifend metus laoreet, condimentum magna. Fusce nec libero aliquam, rutrum lacus et, faucibus nisl.",
+        author: "Customer 1",
     },
     {
         quote:
-            "The weekly specials at shopName help me stock up on my favorite items without breaking the bank. Great prices and quality – highly recommended!",
-        author: "Amit, Edison",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed leo laoreet, eleifend metus laoreet, condimentum magna. Fusce nec libero aliquam, rutrum lacus et, faucibus nisl.",
+        author: "Customer 2",
     },
     {
         quote:
-            "I can always count on shopName for authentic products. It feels like home here, with everything I need for traditional cooking.",
-        author: "Farah, Woodbridge",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed leo laoreet, eleifend metus laoreet, condimentum magna. Fusce nec libero aliquam, rutrum lacus et, faucibus nisl.",
+        author: "Customer 2",
     },
 ];
 
 const Testimonial = () => {
     return (
-        <div className="bg-amber-100 py-16 px-6 md:px-12">
+        <div className="bg-amber-100 py-16 px-6 md:px-12 mt-16 mb-16">
             <div className="container">
-                <h1 className='font-semibold text-[25px] md:text-[45px] mb-7 text-center text-black'>Why do People love Us?</h1>
+                <h1 className='font-semibold text-[25px] md:text-[45px] mb-7 text-center text-black'>People love Us</h1>
                 <div className="grid gap-8 md:grid-cols-3">
                     {testimonials.map((t, index) => (
                         <div

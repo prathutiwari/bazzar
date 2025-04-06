@@ -5,28 +5,29 @@ import spices from '../assets/images/card/spices.jpg'
 
 const products = [
   {
-    title: "Fresh Idli & Dosa Batter",
+    title: "Freshly Packed, Instantly Enjoyed",
     description:
-      "Perfectly Fermented Batter for Fluffy Idlis and Crispy Dosas",
-    imageUrl:dosa,
-  },
-  {
-    title: "Ready to Eat Parathas and Rotis",
-    description:
-      "Convenient and Delicious Parathas and Rotis, Ready in Minutes",
+      "Delicious Rotis and Parathas Ready in Minutes—No Hassle, All Flavor.",
     imageUrl: roti,
   },
   {
-    title: "Premium Whole Spices",
+    title: "The Essence of Indian Flavor",
     description:
-      "Rich and Aromatic Whole Spices, Perfect for Authentic Indian Cooking.",
+      "Handpicked Whole Spices Bursting with Aroma & Rich Tradition.",
     imageUrl: spices,
   },
+  {
+    title: "Rise & Shine with Fresh Batter",
+    description:
+      "Expertly Fermented for Cloud-Soft Idlis & Golden-Crisp Dosas",
+    imageUrl:dosa,
+  },
+  
 ];
 
 const CardContent = () => {
     return (
-        <div className="container mt-10 mb-10">
+        <div className="container mt-16 mb-16">
             <h1 className='font-semibold text-[25px] md:text-[45px] mb-7 text-center text-black'>Everything You Want</h1>
           <div className="grid md:grid-cols-3 gap-8">
             {products.map((product, index) => (

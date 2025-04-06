@@ -13,10 +13,10 @@ const Body = () => {
           <div>
                <HeroBanner />
                <Categories />
-               <OffersCard />
                <HowItWorks />
-               <CompanyInfo />
+               <OffersCard />
                <CardContent />
+               <CompanyInfo />
                <Testimonial />
                <Partners />
           </div>
