@@ -40,6 +40,14 @@ const stores = [
     city: 'City Name',
     pincode: '403058',
     distance: '2.4 km',
+  },
+  {
+    id: 6,
+    name: 'Seed World - Area Name',
+    address: 'Shop 12, Area Name, City Name',
+    city: 'City Name',
+    pincode: '403258',
+    distance: '2.4 km',
   }
 ];
 
@@ -53,7 +61,7 @@ const StoreLocator = () => {
   );
 
   return (
-    <div className="container mx-auto px-4 mt-10 max-w-3xl mb-10">
+    <div className="container mx-auto px-4 mt-10 max-w-4xl mb-10">
       <h1 className="text-center font-bold text-[36px] md:text-[48px] mb-6 text-black">
         Locate Us
       </h1>
@@ -68,7 +76,7 @@ const StoreLocator = () => {
         />
       </div>
 
-      <div className="grid gap-4">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
         {filteredStores.length > 0 ? (
           filteredStores.map((store) => (
             <div key={store.id} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition">
