@@ -19,7 +19,7 @@ const Header = () => {
         {/* Mobile Icons */}
         <div className="flex"> 
           <div
-            className="lg:hidden cursor-pointer px-2 pt-1 rounded-sm relative"
+            className="hidden cursor-pointer px-2 pt-1 rounded-sm relative"
           >
               <i className="fi fi-rr-cart-shopping-fast text-[22px]"></i>
           </div>
@@ -53,10 +53,10 @@ const Header = () => {
           <nav className="lg:hidden absolute right-0 top-[72px] shadow-lg w-[50%] bg-white pb-1 transition-all z-10">
             <ul className="text-black text-center">
               <li className="py-2 px-4">
-                <Link to="/about-us">About Us</Link>
+              <Link to="/store-locator">Store Locator</Link>
               </li>
               <li className="py-2 px-4">
-                <Link to="/products">Products</Link>
+              <Link to="/contact-us">Contact Us</Link>
               </li>
             </ul>
           </nav>
