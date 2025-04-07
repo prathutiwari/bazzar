@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -44,8 +43,7 @@ const Header = () => {
               <Link to="/store-locator">Store Locator</Link>
             </li>
             <li className="py-1 px-2 mx-1">
-              Contact Us
-              {/* <Link to="/contact-us">Contact Us</Link> */}
+              <Link to="/contact-us">Contact Us</Link>
             </li>
           </ul>
         </nav>
