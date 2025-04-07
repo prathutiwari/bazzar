@@ -41,8 +41,7 @@ const Header = () => {
               <Link to="/">Home</Link>
             </li>
             <li className="py-1 px-2 mx-1">
-              Store Locator
-              {/* <Link to="/store-locator">Store Locator</Link> */}
+              <Link to="/store-locator">Store Locator</Link>
             </li>
             <li className="py-1 px-2 mx-1">
               Contact Us
