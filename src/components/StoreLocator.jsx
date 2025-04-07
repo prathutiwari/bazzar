@@ -62,7 +62,7 @@ const StoreLocator = () => {
 
   return (
     <div className="container mx-auto px-4 mt-10 max-w-4xl mb-10">
-      <h1 className="text-center font-bold text-[36px] md:text-[48px] mb-6 text-black">
+      <h1 className="font-semibold text-[25px] md:text-[45px] mb-7 text-center text-black">
         Locate Us
       </h1>
 
